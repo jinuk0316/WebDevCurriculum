@@ -1,3 +1,6 @@
 add 테스트
 commit 테스트
 push 테스트
+branch
+pull
+stash
