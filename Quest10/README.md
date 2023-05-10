@@ -14,7 +14,7 @@
 
 - [MDN - HTTP 쿠키](https://developer.mozilla.org/ko/docs/Web/HTTP/Cookies)
 - [Cookies and Sessions](https://web.stanford.edu/~ouster/cgi-bin/cs142-fall10/lecture.php?topic=cookie)
-- [JWT](https://jwt.io/)
+- [JWT](https://jwt.io)
 
 ## Checklist
 
