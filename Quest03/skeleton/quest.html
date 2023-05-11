@@ -45,8 +45,15 @@
       }
 
       let row2Squares = document.querySelectorAll(".row2 .square");
+      console.log(row2Squares);
       for (let node of row2Squares) {
-        /* 사각형의 박스들을 클릭할 때마다 `enabled`라는 이름의 CSS Class가 클릭된 DOM 노드에 추가되거나 제거되어야 해야합니다 ????*/
+        node.addEventListener("click", function () {
+          if (node.classList.contains("enabled")) {
+            node.classList.remove("enabled");
+          } else {
+            node.classList.add("enabled");
+          }
+        });
       }
     </script>
   </body>
