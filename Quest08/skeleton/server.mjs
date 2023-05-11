@@ -1,8 +1,11 @@
-import http from 'http';
+import http from "http";
 
 const server = http.createServer((req, res) => {
-    /* TODO: 각각의 URL들을 어떻게 처리하면 좋을까요? */
-    res.end();
+  res.writeHead(200, { "Content-Type": "text/plain" });
+  res.write("Hello World!");
+  res.end();
 });
 
-server.listen(8000);
+server.listen(8080, () => {
+  console.log("Server is listening on port 8080");
+});
